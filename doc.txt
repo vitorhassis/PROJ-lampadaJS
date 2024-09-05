@@ -1,0 +1,49 @@
+---------------------------------------------------------------------------------------------------------------------
+ENTENDENDO O CODIGO
+turnOn.addEventListener('click', x )
+-adicionando evento ao clicar, referente a const TurnOn. X eh a funcao que 
+sera executada ao click;
+
+
+function lampOn() {
+    lamp.src = './img/ligada.jpg'
+}
+
+-criamos uma função, chamada lampOn, que vai definir o src da imagem para a imagem ligada. Ou seja, vai realizar
+a troca do source da img para a img ligada,jpg apartir do momento em que for realizado o click no botao de ligar!;
+
+
+lamp.addEventListener('mouseover', lampOn);
+lamp.addEventListener('mouseleave', lampOff);
+lamp.addEventListener('dblclick', lampBroken);
+-mouseover = mouse passar por cima;
+-mouseleave = deixar de passar o mouse por cima;
+-dblclick = double click. Ou seja, clicar duas vezes, nesse caso, da imagem;
+
+
+function islampBroken() {
+    return lamp.src.indexOf ('quebrada') > -1
+}
+-função "a lampada está quebrada" qnd retornar o valor da substring definido, ou seja, qnd for maior que -1;
+-a função verifica se a lampada está quebrada ou não, baseado na URL da imagem atual da lampada(`lamp.src`);
+-return = a função pode devolver o resultado da expressão para quem a chamou;
+-indexOf = usada para verificar se uma substring está presente em uma string. Ou seja, neste caso, verifica se a 
+string 'quebrada' está presente na string src;
+-Ou seja, o return eh usado para que nos devolva um valor (true ou false neste caso). Se o valor retornado eh >-1,
+significa que a substring `quebrada` está presente na URL. Caso contrario, retorna false, ou seja, -1. Nao tem a 
+presença da substring 'quebrada' na string src. Logo, nao tem a img da lampada quebrada;
+
+
+function lampOn() {
+    if ( !isLampBroken ()) {
+    lamp.src = './img/ligada.jpg'
+    }
+}
+-aq, adicionamos o if tanto na function lampOn quanto na lampOff;
+- nao eh dificil de entender. Queremos que, apenas seja possivel acender ou apagar a lampada (trocar as img's) 
+ if (!isLampBroken ()) Ou seja, queremos que apenas seja possivel acender ou apagar a lampada SE ela NAO (! = nao, 
+negação) estiver quebrada, ou seja negação da função isLampBroken, que retorna true ou false (está quebrada ou nao,
+fazendo uma verificação de uma substring que está presente em uma string);
+---------------------------------------------------------------------------------------------------------------------
+COMENTARIOS
+- mt bom fazer uns baguio desse memo sendo facin, pq da aquela revisada e reforça algo que voce acha/achava simples;
