@@ -3,7 +3,7 @@ const turnOff = document.getElementById('turnOff');
 const lamp = document.getElementById('lamp');
 
 function islampBroken () {
-    return lamp.src.indexOf ('quebrada') > -1
+    return lamp.src.indexOf ('quebrada') > -1 //indexOf - verifica se uma substring está presente em uma string, nesse caso, se a substring "quebrada" está presente . Se o valor retornado for >-1, significa que a lampada "esta quebrada", caso contrario, "nao esta quebrada"
 }
 
 
