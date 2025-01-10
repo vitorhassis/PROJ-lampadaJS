@@ -12,7 +12,7 @@
 
 ###
 
-<p align="center">Ao clicar em ligar ou desligar, imagens da lâmpada acesa ou apagada serão apresentadas. Ao clicar duas vezes na lâmpada, ela "quebrará" (substituirá a imagem por uma lâmpada quebrada)</p>
+<p align="center">-Ao clicar em ligar ou desligar, imagens da lâmpada acesa ou apagada serão apresentadas. Ao clicar duas vezes na lâmpada, ela "quebrará" (substituirá a imagem por uma lâmpada quebrada);</p>
 
 ###
 
