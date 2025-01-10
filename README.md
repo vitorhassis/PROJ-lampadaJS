@@ -2,12 +2,12 @@
 
 ###
 
-<p align="center">Um dos projetos simples que realizei durante o aprendizado sobre JavaScript</p>
+<p align="center">-Um dos projetos simples que realizei durante o aprendizado sobre JavaScript;</p>
 
 ###
 
 <div align="center">
-  <img height="500" src="https://github.com/user-attachments/assets/6e8b4b61-6dff-445c-ae85-ad23c3714ef7"  />
+  <img height="430" src="https://github.com/user-attachments/assets/6e8b4b61-6dff-445c-ae85-ad23c3714ef7"  />
 </div>
 
 ###
@@ -17,7 +17,7 @@
 ###
 
 <div align="center">
-  <img height="480" src="https://github.com/user-attachments/assets/11009f83-3a1a-4d8f-baee-80b00a9d5ebd"  />
+  <img height="4830" src="https://github.com/user-attachments/assets/11009f83-3a1a-4d8f-baee-80b00a9d5ebd"  />
 </div>
 
 ###
